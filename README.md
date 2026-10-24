@@ -1,7 +1,5 @@
 # Handwritten Character Recognition (MNIST CNN)
 
-**CodeAlpha Machine Learning Internship, Task 3**
-
 A convolutional neural network that recognises handwritten digits, built with Keras/TensorFlow. The project goes beyond MNIST test accuracy: it also includes a preprocessing pipeline that lets the model read **photos of real handwriting** taken on a phone.
 
 ## Results
@@ -59,8 +57,8 @@ A naive threshold failed on shadowed photos (about 93% of the image counted as i
 ## Repository structure
 
 ```
-CodeAlpha_HandwrittenCharacterRecognition/
-├── CodeAlpha_HandwrittenCharacterRecognition.ipynb   # full notebook
+Handwritten-Characters-Recognition/
+├── HandwrittenCharacterRecognition.ipynb   # full notebook
 ├── mnist_cnn.keras                                   # trained model
 ├── samples/                                          # my own digit photos (e.g. 8_crossed.jpeg)
 ├── images/                                           # screenshots used in this README
@@ -71,10 +69,10 @@ CodeAlpha_HandwrittenCharacterRecognition/
 ## How to run
 
 ```bash
-git clone https://github.com/<your-username>/CodeAlpha_HandwrittenCharacterRecognition.git
-cd CodeAlpha_HandwrittenCharacterRecognition
+git clone https://github.com/<Dhamiex01>/Handwritten-Characters-Recognition.git
+cd Handwritten-Characters-Recognition
 pip install -r requirements.txt
-jupyter notebook CodeAlpha_HandwrittenCharacterRecognition.ipynb
+jupyter notebook HandwrittenCharacterRecognition.ipynb
 ```
 
 Run the cells top to bottom. To test your own digits, put photos in `samples/` and name each file with the true digit first (for example `3_a.png`). Section 8 predicts them all and reports accuracy.
@@ -104,7 +102,6 @@ jupyter
 
 ## Author
 
-**Dhamiex'**
-[LinkedIn](https://www.linkedin.com/in/fayemi-oluwadamilare-a7a78a2a7) · [GitHub](https://github.com/Dhamiex02)
+**Fayemi Oluwadamilare'**
+[LinkedIn](https://www.linkedin.com/in/fayemi-oluwadamilare-a7a78a2a7) · [GitHub](https://github.com/Dhamiex01)
 
-Built as part of the CodeAlpha Machine Learning Internship.
